@@ -87,7 +87,7 @@ __metadata:
     "@emotion/react": 11.10.4
     "@emotion/styled": 11.10.4
     "@jujulego/aegis": 1.0.0-rc.6
-    "@jujulego/aegis-api": 1.0.0-rc.5
+    "@jujulego/aegis-api": 1.0.0-rc.7
     "@jujulego/aegis-react": 1.0.0-rc.3
     "@mui/icons-material": 5.10.3
     "@mui/lab": 5.0.0-alpha.99
@@ -3702,13 +3702,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jujulego/aegis-api@npm:1.0.0-rc.5":
-  version: 1.0.0-rc.5
-  resolution: "@jujulego/aegis-api@npm:1.0.0-rc.5"
+"@jujulego/aegis-api@npm:1.0.0-rc.7":
+  version: 1.0.0-rc.7
+  resolution: "@jujulego/aegis-api@npm:1.0.0-rc.7"
   peerDependencies:
-    "@jujulego/aegis": 1.0.0-rc.6
-    regenerator-runtime: ^0.13.0
-  checksum: 3ef566592dd6ea11e40297bba176c85bcc0369469538f1128615a88332b747e97d5ed07e2011531092dc21c0f1366dacd3e460844d5aef5e4828d629282a13c3
+    "@jujulego/aegis": 1.0.0-rc.8
+  checksum: 9ca505b3f308a4b2f8dafdaf3ac28a5bb4cc24d1ee04ce6be5c07fea8f7bc064c74b38dfc693b2060ecbc324de466f24ca60b01645c5839fe1b50d298893f186
   languageName: node
   linkType: hard
 

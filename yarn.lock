@@ -81,7 +81,7 @@ __metadata:
   resolution: "@ants/frontend@workspace:apps/frontend"
   dependencies:
     "@ants/maths": 1.0.0
-    "@aws-amplify/auth": 4.6.7
+    "@aws-amplify/auth": 4.6.17
     "@aws-amplify/core": 4.7.3
     "@aws-sdk/client-ssm": 3.163.0
     "@emotion/react": 11.10.4
@@ -262,24 +262,40 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@aws-amplify/auth@npm:4.6.7":
-  version: 4.6.7
-  resolution: "@aws-amplify/auth@npm:4.6.7"
+"@aws-amplify/auth@npm:4.6.17":
+  version: 4.6.17
+  resolution: "@aws-amplify/auth@npm:4.6.17"
   dependencies:
-    "@aws-amplify/cache": 4.0.56
-    "@aws-amplify/core": 4.7.5
-    amazon-cognito-identity-js: 5.2.10
+    "@aws-amplify/cache": 4.0.66
+    "@aws-amplify/core": 4.7.15
+    amazon-cognito-identity-js: 5.2.14
     crypto-js: ^4.1.1
-  checksum: 7c1e0159c06a2e4fa455b34c55fd3803079152745cb91c312fdf70e4a0d929a97997bc8f09daa008782701a8987add752e0e9112d94d7798c71467df24925d7f
+  checksum: a8cbfb1753353513c3830934b0ed5431e71a2ac6bacb8978dbdd65d95058fa835645f073dbebf7ff7ca1a1d2b7dd946b4530b89f42e144fc8224997f8a960fe6
   languageName: node
   linkType: hard
 
-"@aws-amplify/cache@npm:4.0.56":
-  version: 4.0.56
-  resolution: "@aws-amplify/cache@npm:4.0.56"
+"@aws-amplify/cache@npm:4.0.66":
+  version: 4.0.66
+  resolution: "@aws-amplify/cache@npm:4.0.66"
   dependencies:
-    "@aws-amplify/core": 4.7.5
-  checksum: 8dabab922227dde058e871d91f5ebabbe4aeeb0353e4900d73bf060a34fff35422ef90a35eccaab6a4069953b271b0e24f25decbb9cefd89476d2bcce43e5cd4
+    "@aws-amplify/core": 4.7.15
+  checksum: cba46569f4c76701f435a5a19c38e5a86a9470f04f814757dddb8da8e6d63d99d8dc2eee8b1362de2a7b642f4687bc1fa72b33617e401fd508233d65a3e3ab1f
+  languageName: node
+  linkType: hard
+
+"@aws-amplify/core@npm:4.7.15":
+  version: 4.7.15
+  resolution: "@aws-amplify/core@npm:4.7.15"
+  dependencies:
+    "@aws-crypto/sha256-js": 1.0.0-alpha.0
+    "@aws-sdk/client-cloudwatch-logs": 3.6.1
+    "@aws-sdk/client-cognito-identity": 3.6.1
+    "@aws-sdk/credential-provider-cognito-identity": 3.6.1
+    "@aws-sdk/types": 3.6.1
+    "@aws-sdk/util-hex-encoding": 3.6.1
+    universal-cookie: ^4.0.4
+    zen-observable-ts: 0.8.19
+  checksum: ae48cb10ff8ce33411bb87e8e90e9ee242e5cbe06983876507612fb8b5cd257ac0f76dcb465770a61d9f6dc1b28364c7cc0fd03c1a83bc28245688d3bc4f35d5
   languageName: node
   linkType: hard
 
@@ -296,22 +312,6 @@ __metadata:
     universal-cookie: ^4.0.4
     zen-observable-ts: 0.8.19
   checksum: 2a2b9a96ff5ffeb5a71884e07fd27cbd8b86b0fcf0f660d341e5064e5cecd7aadea420cfcc57c3978b305a8d307d2a2247351cc331387ec077e604558a40c160
-  languageName: node
-  linkType: hard
-
-"@aws-amplify/core@npm:4.7.5":
-  version: 4.7.5
-  resolution: "@aws-amplify/core@npm:4.7.5"
-  dependencies:
-    "@aws-crypto/sha256-js": 1.0.0-alpha.0
-    "@aws-sdk/client-cloudwatch-logs": 3.6.1
-    "@aws-sdk/client-cognito-identity": 3.6.1
-    "@aws-sdk/credential-provider-cognito-identity": 3.6.1
-    "@aws-sdk/types": 3.6.1
-    "@aws-sdk/util-hex-encoding": 3.6.1
-    universal-cookie: ^4.0.4
-    zen-observable-ts: 0.8.19
-  checksum: 65c72c879ab6d9aaa4b472cffba3337ebb13a6e708d983fca01dc5dd900bbc9d1c3b2a332ba62c28fa41af5069955b55953c1033c33970644c1fee1e1f59f1fe
   languageName: node
   linkType: hard
 
@@ -5968,16 +5968,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"amazon-cognito-identity-js@npm:5.2.10":
-  version: 5.2.10
-  resolution: "amazon-cognito-identity-js@npm:5.2.10"
+"amazon-cognito-identity-js@npm:5.2.14":
+  version: 5.2.14
+  resolution: "amazon-cognito-identity-js@npm:5.2.14"
   dependencies:
     buffer: 4.9.2
     crypto-js: ^4.1.1
     fast-base64-decode: ^1.0.0
     isomorphic-unfetch: ^3.0.0
     js-cookie: ^2.2.1
-  checksum: 1e2c44d487e8db12de16b9a76644b8b93a3ab4e9bb73b4f98e66385b49884d7f08aa4514faa4059576a418ebdeee82ebdc78e039507f35d82dc93c31ad75fbe7
+  checksum: 490a2fa2a4477cfefa3fdde300f617f374047346ccbf67bcec1f3708fbc5421288e12995b40b91f48fe2e9ce7fb7841b1b953cf20068cca584d9a7588ed6b978
   languageName: node
   linkType: hard
 

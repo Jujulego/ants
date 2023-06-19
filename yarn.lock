@@ -82,7 +82,7 @@ __metadata:
   dependencies:
     "@ants/maths": 1.0.0
     "@aws-amplify/auth": 4.6.7
-    "@aws-amplify/core": 4.7.3
+    "@aws-amplify/core": 4.7.15
     "@aws-sdk/client-ssm": 3.163.0
     "@emotion/react": 11.10.4
     "@emotion/styled": 11.10.4
@@ -283,9 +283,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-amplify/core@npm:4.7.3":
-  version: 4.7.3
-  resolution: "@aws-amplify/core@npm:4.7.3"
+"@aws-amplify/core@npm:4.7.15":
+  version: 4.7.15
+  resolution: "@aws-amplify/core@npm:4.7.15"
   dependencies:
     "@aws-crypto/sha256-js": 1.0.0-alpha.0
     "@aws-sdk/client-cloudwatch-logs": 3.6.1
@@ -295,7 +295,7 @@ __metadata:
     "@aws-sdk/util-hex-encoding": 3.6.1
     universal-cookie: ^4.0.4
     zen-observable-ts: 0.8.19
-  checksum: 2a2b9a96ff5ffeb5a71884e07fd27cbd8b86b0fcf0f660d341e5064e5cecd7aadea420cfcc57c3978b305a8d307d2a2247351cc331387ec077e604558a40c160
+  checksum: ae48cb10ff8ce33411bb87e8e90e9ee242e5cbe06983876507612fb8b5cd257ac0f76dcb465770a61d9f6dc1b28364c7cc0fd03c1a83bc28245688d3bc4f35d5
   languageName: node
   linkType: hard
 

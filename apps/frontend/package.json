@@ -21,7 +21,7 @@
     "@aws-amplify/core": "4.7.3",
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
-    "@jujulego/aegis": "1.0.0-rc.6",
+    "@jujulego/aegis": "1.0.0-rc.8",
     "@jujulego/aegis-api": "1.0.0-rc.5",
     "@jujulego/aegis-react": "1.0.0-rc.3",
     "@mui/icons-material": "5.10.3",

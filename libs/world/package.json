@@ -47,7 +47,7 @@
     "@types/seedrandom": "3.0.2",
     "@typescript-eslint/eslint-plugin": "5.44.0",
     "@typescript-eslint/parser": "5.44.0",
-    "del": "6.1.1",
+    "del": "7.1.0",
     "eslint": "8.28.0",
     "eslint-plugin-jest": "27.1.5",
     "eslint-plugin-workspaces": "0.7.0",

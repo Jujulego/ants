@@ -61,7 +61,7 @@ __metadata:
     esbuild: 0.15.8
     esbuild-jest: 0.5.0
     eslint: 8.28.0
-    eslint-plugin-jest: 27.1.5
+    eslint-plugin-jest: 27.9.0
     eslint-plugin-workspaces: 0.7.0
     http-errors: 2.0.0
     jest: 29.3.1
@@ -109,7 +109,7 @@ __metadata:
     dexie: 3.2.2
     dexie-react-hooks: 1.1.1
     eslint: 8.28.0
-    eslint-plugin-jest: 27.1.5
+    eslint-plugin-jest: 27.9.0
     eslint-plugin-react: 7.31.11
     eslint-plugin-react-hooks: 4.6.0
     eslint-plugin-workspaces: 0.7.0
@@ -151,7 +151,7 @@ __metadata:
     browserslist: 4.21.4
     del: 6.1.1
     eslint: 8.28.0
-    eslint-plugin-jest: 27.1.5
+    eslint-plugin-jest: 27.9.0
     eslint-plugin-workspaces: 0.7.0
     gulp: 4.0.2
     gulp-cli: 2.3.0
@@ -173,7 +173,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.44.0
     "@typescript-eslint/parser": 5.44.0
     eslint: 8.28.0
-    eslint-plugin-jest: 27.1.5
+    eslint-plugin-jest: 27.9.0
     eslint-plugin-workspaces: 0.7.0
     gulp: 4.0.2
     gulp-sourcemaps: 3.0.0
@@ -207,7 +207,7 @@ __metadata:
     dexie: 3.2.2
     dexie-react-hooks: 1.1.1
     eslint: 8.28.0
-    eslint-plugin-jest: 27.1.5
+    eslint-plugin-jest: 27.9.0
     eslint-plugin-react: 7.31.11
     eslint-plugin-react-hooks: 4.6.0
     eslint-plugin-workspaces: 0.7.0
@@ -251,7 +251,7 @@ __metadata:
     "@typescript-eslint/parser": 5.44.0
     del: 6.1.1
     eslint: 8.28.0
-    eslint-plugin-jest: 27.1.5
+    eslint-plugin-jest: 27.9.0
     eslint-plugin-workspaces: 0.7.0
     gulp: 4.0.2
     gulp-cli: 2.3.0
@@ -9420,20 +9420,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:27.1.5":
-  version: 27.1.5
-  resolution: "eslint-plugin-jest@npm:27.1.5"
+"eslint-plugin-jest@npm:27.9.0":
+  version: 27.9.0
+  resolution: "eslint-plugin-jest@npm:27.9.0"
   dependencies:
     "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.0.0
+    "@typescript-eslint/eslint-plugin": ^5.0.0 || ^6.0.0 || ^7.0.0
     eslint: ^7.0.0 || ^8.0.0
+    jest: "*"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     jest:
       optional: true
-  checksum: 7c9de765793f7161afa0bdcdce67f4d072944152880fa638b25d228188dcee47a4b4aada26c57db72bc10193c96a1979e17afb8a7c3e400e961d8adfbf23ddbe
+  checksum: e2a4b415105408de28ad146818fcc6f4e122f6a39c6b2216ec5c24a80393f1390298b20231b0467bc5fd730f6e24b05b89e1a6a3ce651fc159aa4174ecc233d0
   languageName: node
   linkType: hard
 

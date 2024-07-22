@@ -145,7 +145,7 @@ __metadata:
     "@ants/tools": "workspace:*"
     "@swc/core": 1.3.20
     "@swc/jest": 0.2.23
-    "@types/gulp": 4.0.10
+    "@types/gulp": 4.0.17
     "@types/jest": 29.2.3
     "@types/node": 16.18.3
     browserslist: 4.21.4
@@ -168,7 +168,7 @@ __metadata:
     "@jujulego/flow": 1.1.0
     "@swc/cli": 0.1.57
     "@swc/core": 1.3.20
-    "@types/gulp": 4.0.10
+    "@types/gulp": 4.0.17
     "@types/gulp-sourcemaps": 0.0.35
     "@typescript-eslint/eslint-plugin": 5.44.0
     "@typescript-eslint/parser": 5.44.0
@@ -243,7 +243,7 @@ __metadata:
     "@jujulego/jill": 2.1.0-alpha.3
     "@swc/core": 1.3.20
     "@swc/jest": 0.2.23
-    "@types/gulp": 4.0.10
+    "@types/gulp": 4.0.17
     "@types/jest": 29.2.3
     "@types/node": 16.18.3
     "@types/seedrandom": 3.0.2
@@ -4882,14 +4882,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/gulp@npm:4.0.10":
-  version: 4.0.10
-  resolution: "@types/gulp@npm:4.0.10"
+"@types/gulp@npm:4.0.17":
+  version: 4.0.17
+  resolution: "@types/gulp@npm:4.0.17"
   dependencies:
+    "@types/node": "*"
     "@types/undertaker": ">=1.2.6"
     "@types/vinyl-fs": "*"
     chokidar: ^3.3.1
-  checksum: ac85fc1ad53bf3e093b72e88700db61b10997e9facf82fe6dc0dd50fcd89af39ef1342baaaf34609174601e84066607e29598d0b99fe9e75e1f197097cba0308
+  checksum: 46b51ffbb0d4d608a720cfd6bcd922c0bb215b41ec87050417b9e1c59992bdb5996a4e477bccf4fff37c0a194a9929446fc5167895c61d1ff6bf9ff6b1b48a4b
   languageName: node
   linkType: hard
 

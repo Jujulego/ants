@@ -15,7 +15,7 @@
     "@types/gulp-sourcemaps": "0.0.35",
     "@typescript-eslint/eslint-plugin": "5.44.0",
     "@typescript-eslint/parser": "5.44.0",
-    "eslint": "8.28.0",
+    "eslint": "9.26.0",
     "eslint-plugin-jest": "27.1.5",
     "eslint-plugin-workspaces": "0.7.0",
     "gulp": "4.0.2",

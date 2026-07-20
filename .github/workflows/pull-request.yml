@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3.7.0
       - run: git fetch origin ${{ github.base_ref }}
 
       - name: Use Node.js 16.x
@@ -42,7 +42,7 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3.7.0
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
@@ -126,7 +126,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3.7.0
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3.4.1
@@ -155,7 +155,7 @@ jobs:
         include: ${{ fromJson(needs.setup.outputs.matrix-lint) }}
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3.7.0
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3.4.1
@@ -179,7 +179,7 @@ jobs:
         include: ${{ fromJson(needs.setup.outputs.matrix-test) }}
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3.7.0
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3.4.1
@@ -216,7 +216,7 @@ jobs:
           - '@ants/viewer'
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3.7.0
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3.4.1

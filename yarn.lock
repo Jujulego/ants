@@ -48,7 +48,7 @@ __metadata:
     "@aws-sdk/smithy-client": 3.162.0
     "@aws-sdk/types": 3.162.0
     "@swc/core": 1.3.20
-    "@types/aws-lambda": 8.10.109
+    "@types/aws-lambda": 8.10.164
     "@types/http-errors": 1.8.2
     "@types/jest": 29.2.3
     "@types/lodash.omit": 4.5.7
@@ -4642,10 +4642,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:8.10.109":
-  version: 8.10.109
-  resolution: "@types/aws-lambda@npm:8.10.109"
-  checksum: 879dd30806bbcdcc5495192ed139ab6e7e65d2481c4c80237d8293e3a33e9fcbfb662109246164c493de9fd13b32d1780359a0f191238bd62fd4be14c1efe2fe
+"@types/aws-lambda@npm:8.10.164":
+  version: 8.10.164
+  resolution: "@types/aws-lambda@npm:8.10.164"
+  checksum: 74319fad6d8719f5efde26f11d18a818046d48569177713dc7cc0e615c2e2b710578747c70de0da906b167de8561911882c3e535685f5c89cbbb54e325151f44
   languageName: node
   linkType: hard
 
